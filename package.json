@@ -1,0 +1,23 @@
+{
+  "name": "graphql-mongo-workshop",
+  "version": "1.0.0",
+  "description": "Graphql + mongo workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gelopfalcon/graphql-mongo-workshop.git"
+  },
+  "author": "Falcon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gelopfalcon/graphql-mongo-workshop/issues"
+  },
+  "homepage": "https://github.com/gelopfalcon/graphql-mongo-workshop#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.9.16"
+  }
+}
