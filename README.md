@@ -4,7 +4,9 @@ GraphQL a menudo se confunde con ser una tecnología de base de datos, pero esta
 
 ## Setup
 
-1. `npm install`
-2. `node index.js`
-3. Go to http://localhost:4000/
+1. Clona el proyecto
+2. `npm install`
+3. `node index.js`
+4. Go to http://localhost:4000/
+5. Disfruta tu graphql server
 
