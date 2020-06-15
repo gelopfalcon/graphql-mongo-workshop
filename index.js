@@ -10,9 +10,7 @@ const typeDefs = `
 
 const resolvers = {
   Query: {
-    hello: (name) => {
-          return `Bienvenid@ ${name || 'World'} al canal`
-      },
+    hello: (_, {name}) => `Bienvenid@ ${name || 'World'} al canal`,
   },
 }
 
