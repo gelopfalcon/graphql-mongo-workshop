@@ -13,7 +13,7 @@ GraphQL a menudo se confunde con ser una tecnología de base de datos, pero esta
 ## Ejemplos a usar
 
 ### Agregar un usuario
-
+```
 mutation{
   addUser(fullname:"Gerardo López Falcón",username:"gelopfalcon",phone_number:"2348102331921",city:"Heredia"){
     id
@@ -23,9 +23,10 @@ mutation{
     city
   }
 }
+```
 
 ### Obtener usuarios
-
+```
 query{
   getUsers{
     id
@@ -35,8 +36,10 @@ query{
     city
   }
 }
+```
 
 ### Obtener un usuario por ID
+```
 query{
   getUser(id:"user_id"){
     id
@@ -46,3 +49,4 @@ query{
     city
   }
 }
+```
