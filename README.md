@@ -10,3 +10,39 @@ GraphQL a menudo se confunde con ser una tecnología de base de datos, pero esta
 4. Go to http://localhost:4000/
 5. Disfruta tu graphql server
 
+## Ejemplos a usar
+
+### Agregar un usuario
+
+mutation{
+  addUser(fullname:"Ibe Ogele",username:"ibesoft",phone_number:"2348102331921",city:"Enugu"){
+    id
+    fullname
+    username
+    phone_number
+    city
+  }
+}
+
+### Obtener usuarios
+
+query{
+  getUsers{
+    id
+    fullname
+    username
+    phone_number
+    city
+  }
+}
+
+### Obtener un usuario por ID
+query{
+  getUser(id:"user_id"){
+    id
+    fullname
+    username
+    phone_number
+    city
+  }
+}
