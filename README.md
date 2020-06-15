@@ -15,7 +15,7 @@ GraphQL a menudo se confunde con ser una tecnología de base de datos, pero esta
 ### Agregar un usuario
 
 mutation{
-  addUser(fullname:"Ibe Ogele",username:"ibesoft",phone_number:"2348102331921",city:"Enugu"){
+  addUser(fullname:"Gerardo López Falcón",username:"gelopfalcon",phone_number:"2348102331921",city:"Heredia"){
     id
     fullname
     username
